@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    color: #fff;
+    text-align: center;     
+    background-color: rgb(61, 72, 102);
+    margin-top: -20px;
+   
+
+}
+
+/*
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  margin-top: -50px;
+  background-color: #45a049;
+  height: 100px;
+
+}
+*/
+
+h1 {
+    margin: 0px;
+    text-align: center;        
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+nav ul li a:hover {
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    
+}
+
+.searchBtn {
+    padding: 20px;
+    text-align: center;
+}
+
+#search {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#search h1 {
+    margin-bottom: 20px;
+}
+
+#search input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#search button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: rgb(61, 72, 102);
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: lightcoral;    
+
+}
+
+.login-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    align-items: center;
+
+
+    
+
+}
+.login-button-div{
+    text-align: center;
+
+
+}
+
+/* Hover Effect */
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+div{
+    align-items: center;
+
+}
+
+
+
+
+.logo-container {
+    width: 70px; 
+    height: 70px; 
+    border-radius: 90%; 
+    overflow: hidden; 
+    background-color: white;
+    
+  }
+
+.logo {
+  width: 100%; 
+  height: auto; 
+  display: block;
+  
+
+  
+}
+
+.horizontal-menu li {
+    display: inline;
+}
+
+.horizontal-menu li a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: lightcoral;    
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.horizontal-menu li a:hover {
+    background-color: #f2f2f2;
+    border-radius: 20px;
+
+}
