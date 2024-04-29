@@ -2,21 +2,29 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f7f7f7;
+
 }
 header {
-    background-color: rgb(61, 72, 102);
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    margin-top: -40px;
+    margin-bottom: 80px;
+
 }
 
 h1 {
     margin: 0px;
     text-align: center;
+    color: yellow;
+    background-color: rgb(61, 72, 102);
 }
 .container {
     width: 80%;
     margin: 20px auto;
+    margin-bottom: 100px;
+
 }
 .job {
     border: 1px solid #ccc;
@@ -26,6 +34,20 @@ h1 {
 }
 .job h2 {
     margin-top: 0;
+}
+
+.job {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.job button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.job button:hover {
+    background-color: lightblue;
 }
 
 .horizontal-menu {
@@ -47,6 +69,8 @@ h1 {
 
 .horizontal-menu li a:hover {
     background-color: #f2f2f2;
+    border-radius: 20px;
+
 }
 
 section {
@@ -55,14 +79,46 @@ section {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    width: 50%;
+    margin: 20px auto;
 }
 
-footer {
-    background-color: rgb(61, 72, 102);
-    color: black;
-    text-align: center;
-    padding: 20px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.logo-container {
+    width: 70px; 
+    height: 70px; 
+    border-radius: 90%; 
+    overflow: hidden; 
+    background-color: white;
+    
+  }
+
+.logo {
+  width: 100%; 
+  height: auto; 
+  display: block;
 }
+
+
+footer p{
+    display: inline;
+    margin-right: 20px;
+    font-size: .9em;
+    font-family: Garamond;
+  }
+  
+  footer P a{
+    color: lightcoral;
+    text-decoration: none;
+    font-family: Garamond;
+    font-size: .9em;
+  
+  }
+  
+  footer {
+    color: lightcoral;
+    text-align: center;
+    font-family: Garamond;
+    background-color: rgb(61, 72, 102);
+    margin-top: 90px;
+    font-size: .9em;
+  }

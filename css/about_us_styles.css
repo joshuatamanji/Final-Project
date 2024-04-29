@@ -1,131 +1,170 @@
-/* Add your CSS styles here
-    give the code for about us page for a job search portal in html
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+header {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: -50px;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-    */
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-      }
-      header {
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-        margin-top: -20px;
+h2 {
+  color: peru;
+}
+p {
+  line-height: 1.6;
+  color: black;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-      }
-      .container {
-        width: 80%;
-        margin: auto;
-        padding: 20px;
-        max-width: 600px;
-      margin: 20px auto;
-      background-color: #fff;
-      padding: 20px;
-      border-radius: 5px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
-      h2 {
-        color: peru;
-      }
-      p {
-        line-height: 1.6;
-        color: black;
-        font-size: 20px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      }
+.horizontal-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 
-      .horizontal-menu {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-    }
+h1 {
+  margin: 0px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: yellow;
+  background-color: rgb(61, 72, 102);
+}
 
-    h1 {
-        margin: 0px;
-        text-align: center;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    
-    .horizontal-menu li {
-        display: inline;
-    }
-    
-    .horizontal-menu li a {
-        display: inline-block;
-        padding: 10px;
-        text-decoration: none;
-        color: lightcoral;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;        
-    }
-    
-    .horizontal-menu li a:hover {
-        background-color: #f2f2f2;
-        border-radius: 20px;
+.horizontal-menu li {
+  display: inline;
+}
 
-    }
-    
-    section {
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        margin-bottom: 20px;
-    }
+.horizontal-menu li a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: lightcoral;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;        
+}
 
-    footer {
-      background-color: rgb(61, 72, 102);
-      text-align: center;
-      padding: 20px 0;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      color: lightcoral;    
 
-  }
+.horizontal-menu li a:hover {
+  background-color: #f2f2f2;
+  border-radius: 20px;
 
-  .logo-container {
-    width: 70px; 
-    height: 70px; 
-    border-radius: 90%; 
-    overflow: hidden; 
-    background-color: white;
-  }
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.logo-container {
+  width: 70px; 
+  height: 70px; 
+  border-radius: 90%; 
+  overflow: hidden; 
+  background-color: white;
+}
 
 .logo {
-  width: 100%; 
-  height: auto; 
-  display: block;
-  
-
-  
+width: 100%; 
+height: auto; 
+display: block;
 }
 
 nav ul li{
-  margin-top: -50px;
-  background-color: rgb(61, 72, 102);
+  margin-top: 500px;  
+  }
 
-  
+
+nav ul {
+list-style-type: none;
+padding: 0;
+width: 100%;
+margin-top: -100px;
+height: 100px;
+
 }
 
-nav ul{
-  list-style-type: none;
+footer p{
+  display: inline;
+  margin-right: 20px;
+  font-size: .9em;
+  font-family: Garamond;
+}
+
+footer P a{
+  color: lightcoral;
+  text-decoration: none;
+  font-family: Garamond;
+  font-size: .9em;
+}
+
+footer {
+  color: lightcoral;
+  text-align: center;
+  font-family: Garamond;
+  background-color: rgb(61, 72, 102);
+  margin-top: 90px;
+  font-size: .9em;
+}
+
+@media screen and (max-width: 480px) {
+	nav ul {
+    list-style-type: none;
     padding: 0;
     width: 100%;
-    margin-top: -50px;
-    background-color: rgb(61, 72, 102);
+    margin-top: 10px;
+    height: 100px;
+  
+  }
 
-    height: 50px;
+  header {
+    margin-top: -12px;
+
+
+  }
+  .searchBtn {
+    padding: 20px;
+    width: 90%;
+    margin: 20px auto;
 
 }
-/*
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  width: 100%;
-  margin-top: -50px;
-  background-color: #45a049;
-  height: 100px;
 
+
+.InputNP{
+    padding: 20px;
+    width: 90%;
+    margin: 20px auto;
+  
+  
+  }
+
+  section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 88%;
+    margin: 20px auto;
 }
-*/
+ 
+}
